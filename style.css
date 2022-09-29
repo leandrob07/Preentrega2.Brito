@@ -1,0 +1,54 @@
+h1 {
+    color: red;
+}
+h2 {
+    color: green
+}
+
+.card {
+    border: none;
+}
+.card-body {
+    padding: 0;
+}
+h3 {
+    font-size: 16px;
+}
+
+#portfolio img {
+
+    transition: all 0.5s
+}
+#portfolio img:hover {
+    transform: scale(1.2)
+}
+
+body {
+    background-image: url(https://st3.depositphotos.com/3070393/13908/i/600/depositphotos_139083656-stock-photo-stylish-vintage-barber-chair.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+nav {
+background-color: rgb(94, 255, 0);
+}
+
+.bi-twitter{
+    color: aqua;
+}
+
+.bi-facebook {
+    color: blue;
+    font-size: 16px;
+}
+.bi-instagram{
+    color: rgb(255, 51, 0);
+}
+.bi-instagram:hover,
+.bi-twitter:hover,
+.bi-facebook:hover {
+    color: rgb(171, 171, 219);
+}
